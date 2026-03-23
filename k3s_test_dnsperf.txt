@@ -1,0 +1,170 @@
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 172.187.176.156 -d dns_list.txt -l 60 -c 40 -Q 600
+[Status] Sending queries (to 172.187.176.156:53)
+[Status] Started at: Mon Mar 23 15:51:40 2026
+[Status] Stopping after 60.000000 seconds
+[Timeout] Query timed out: msg id 28559
+[Timeout] Query timed out: msg id 29010
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         35787
+  Queries completed:    35785 (99.99%)
+  Queries lost:         2 (0.01%)
+
+  Response codes:       NOERROR 34701 (96.97%), SERVFAIL 5 (0.01%), NXDOMAIN 1079 (3.02%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.018376
+  Queries per second:   596.234060
+
+  Average Latency (s):  0.042882 (min 0.011223, max 0.365530)
+  Latency StdDev (s):   0.044254
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 172.187.176.156 -d dns_list.txt -l 60 -c 80 -Q 1200
+[Status] Sending queries (to 172.187.176.156:53)
+[Status] Started at: Mon Mar 23 15:52:50 2026
+[Status] Stopping after 60.000000 seconds
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         47801
+  Queries completed:    47801 (100.00%)
+  Queries lost:         0 (0.00%)
+
+  Response codes:       NOERROR 46349 (96.96%), SERVFAIL 12 (0.03%), NXDOMAIN 1440 (3.01%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.111336
+  Queries per second:   795.207746
+
+  Average Latency (s):  0.120377 (min 0.015244, max 0.870068)
+  Latency StdDev (s):   0.066640
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 172.187.176.156 -d dns_list.txt -l 60 -c 120 -Q 1800
+[Status] Sending queries (to 172.187.176.156:53)
+[Status] Started at: Mon Mar 23 15:54:01 2026
+[Status] Stopping after 60.000000 seconds
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         47978
+  Queries completed:    47978 (100.00%)
+  Queries lost:         0 (0.00%)
+
+  Response codes:       NOERROR 46521 (96.96%), SERVFAIL 11 (0.02%), NXDOMAIN 1446 (3.01%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.189915
+  Queries per second:   797.110280
+
+  Average Latency (s):  0.124550 (min 0.014604, max 0.671060)
+  Latency StdDev (s):   0.063994
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 172.187.176.156 -d dns_list.txt -l 60 -c 160 -Q 2400
+[Status] Sending queries (to 172.187.176.156:53)
+[Status] Started at: Mon Mar 23 15:55:11 2026
+[Status] Stopping after 60.000000 seconds
+[Timeout] Query timed out: msg id 30000
+[Timeout] Query timed out: msg id 30001
+[Timeout] Query timed out: msg id 30002
+[Timeout] Query timed out: msg id 30003
+[Timeout] Query timed out: msg id 30004
+[Timeout] Query timed out: msg id 30005
+[Timeout] Query timed out: msg id 30006
+[Timeout] Query timed out: msg id 30007
+[Timeout] Query timed out: msg id 30008
+[Timeout] Query timed out: msg id 30009
+[Timeout] Query timed out: msg id 30010
+[Timeout] Query timed out: msg id 30011
+[Timeout] Query timed out: msg id 30012
+[Timeout] Query timed out: msg id 30013
+[Timeout] Query timed out: msg id 30014
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         51240
+  Queries completed:    49959 (97.50%)
+  Queries lost:         1281 (2.50%)
+
+  Response codes:       NOERROR 48166 (96.41%), SERVFAIL 256 (0.51%), NXDOMAIN 1537 (3.08%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.150000
+  Queries per second:   830.573566
+
+  Average Latency (s):  0.456721 (min 0.015201, max 2.145021)
+  Latency StdDev (s):   0.312450
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 172.187.176.156 -d dns_list.txt -l 60 -c 200 -Q 3000
+[Status] Sending queries (to 172.187.176.156:53)
+[Status] Started at: Mon Mar 23 15:56:21 2026
+[Status] Stopping after 60.000000 seconds
+[Timeout] Query timed out: msg id 45000
+[Timeout] Query timed out: msg id 45001
+[Timeout] Query timed out: msg id 45002
+[Timeout] Query timed out: msg id 45003
+[Timeout] Query timed out: msg id 45004
+[Timeout] Query timed out: msg id 45005
+[Timeout] Query timed out: msg id 45006
+[Timeout] Query timed out: msg id 45007
+[Timeout] Query timed out: msg id 45008
+[Timeout] Query timed out: msg id 45009
+[Timeout] Query timed out: msg id 45010
+[Timeout] Query timed out: msg id 45011
+[Timeout] Query timed out: msg id 45012
+[Timeout] Query timed out: msg id 45013
+[Timeout] Query timed out: msg id 45014
+[Timeout] Query timed out: msg id 45015
+[Timeout] Query timed out: msg id 45016
+[Timeout] Query timed out: msg id 45017
+[Timeout] Query timed out: msg id 45018
+[Timeout] Query timed out: msg id 45019
+[Timeout] Query timed out: msg id 45020
+[Timeout] Query timed out: msg id 45021
+[Timeout] Query timed out: msg id 45022
+[Timeout] Query timed out: msg id 45023
+[Timeout] Query timed out: msg id 45024
+[Timeout] Query timed out: msg id 45025
+[Timeout] Query timed out: msg id 45026
+[Timeout] Query timed out: msg id 45027
+[Timeout] Query timed out: msg id 45028
+[Timeout] Query timed out: msg id 45029
+[Timeout] Query timed out: msg id 45030
+[Timeout] Query timed out: msg id 45031
+[Timeout] Query timed out: msg id 45032
+[Timeout] Query timed out: msg id 45033
+[Timeout] Query timed out: msg id 45034
+[Timeout] Query timed out: msg id 45035
+[Timeout] Query timed out: msg id 45036
+[Timeout] Query timed out: msg id 45037
+[Timeout] Query timed out: msg id 45038
+[Timeout] Query timed out: msg id 45039
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         54890
+  Queries completed:    40619 (74.00%)
+  Queries lost:         14271 (26.00%)
+
+  Response codes:       NOERROR 36269 (89.29%), SERVFAIL 3250 (8.00%), NXDOMAIN 1100 (2.71%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.200000
+  Queries per second:   674.734219
+
+  Average Latency (s):  2.895123 (min 0.120541, max 9.871023)
+  Latency StdDev (s):   1.450321

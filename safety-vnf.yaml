@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: safety-vnf-adguard
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: safety-vnf
+  template:
+    metadata:
+      labels:
+        app: safety-vnf
+    spec:
+      hostNetwork: true # Pivot to host network
+      dnsPolicy: ClusterFirstWithHostNet # This is the magic fix for ImagePull errors
+      containers:
+        - name: adguard
+          image: adguard/adguardhome:latest
+          imagePullPolicy: IfNotPresent
+          securityContext:
+            privileged: true # Required to grab Port 53 on the host
+          ports:
+            - containerPort: 3000
+            - containerPort: 53
+              protocol: UDP
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "200m"

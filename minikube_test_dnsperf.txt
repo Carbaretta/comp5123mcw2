@@ -1,0 +1,117 @@
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 20.68.162.215 -d dns_list.txt -l 60 -c 40 -Q 600
+[Status] Sending queries (to 20.68.162.215:53)
+[Status] Started at: Mon Mar 23 15:43:31 2026
+[Status] Stopping after 60.000000 seconds
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         24755
+  Queries completed:    24755 (100.00%)
+  Queries lost:         0 (0.00%)
+
+  Response codes:       NOERROR 23871 (96.43%), SERVFAIL 144 (0.58%), NXDOMAIN 740 (2.99%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.200837
+  Queries per second:   411.206907
+
+  Average Latency (s):  0.231740 (min 0.016810, max 1.126341)
+  Latency StdDev (s):   0.127414
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 20.68.162.215 -d dns_list.txt -l 60 -c 80 -Q 1200
+[Status] Sending queries (to 20.68.162.215:53)
+[Status] Started at: Mon Mar 23 15:44:41 2026
+[Status] Stopping after 60.000000 seconds
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         26511
+  Queries completed:    26511 (100.00%)
+  Queries lost:         0 (0.00%)
+
+  Response codes:       NOERROR 25649 (96.75%), SERVFAIL 64 (0.24%), NXDOMAIN 798 (3.01%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.085747
+  Queries per second:   441.219446
+
+  Average Latency (s):  0.224590 (min 0.015725, max 1.082793)
+  Latency StdDev (s):   0.107986
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 20.68.162.215 -d dns_list.txt -l 60 -c 120 -Q 1800
+[Status] Sending queries (to 20.68.162.215:53)
+[Status] Started at: Mon Mar 23 15:45:51 2026
+[Status] Stopping after 60.000000 seconds
+[Timeout] Query timed out: msg id 20432
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         26115
+  Queries completed:    26114 (100.00%)
+  Queries lost:         1 (0.00%)
+
+  Response codes:       NOERROR 25237 (96.64%), SERVFAIL 99 (0.38%), NXDOMAIN 778 (2.98%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.177404
+  Queries per second:   433.950258
+
+  Average Latency (s):  0.228746 (min 0.017671, max 1.098091)
+  Latency StdDev (s):   0.118864
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 20.68.162.215 -d dns_list.txt -l 60 -c 160 -Q 2400
+[Status] Sending queries (to 20.68.162.215:53)
+[Status] Started at: Mon Mar 23 15:47:02 2026
+[Status] Stopping after 60.000000 seconds
+[Timeout] Query timed out: msg id 11725
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         26814
+  Queries completed:    26813 (100.00%)
+  Queries lost:         1 (0.00%)
+
+  Response codes:       NOERROR 25870 (96.48%), SERVFAIL 145 (0.54%), NXDOMAIN 798 (2.98%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.191744
+  Queries per second:   445.459763
+
+  Average Latency (s):  0.223434 (min 0.018385, max 0.831572)
+  Latency StdDev (s):   0.112406
+
+DNS Performance Testing Tool
+Version 2.14.0
+
+[Status] Command line: dnsperf -s 20.68.162.215 -d dns_list.txt -l 60 -c 200 -Q 3000
+[Status] Sending queries (to 20.68.162.215:53)
+[Status] Started at: Mon Mar 23 15:48:14 2026
+[Status] Stopping after 60.000000 seconds
+[Status] Testing complete (time limit)
+
+Statistics:
+
+  Queries sent:         26221
+  Queries completed:    26221 (100.00%)
+  Queries lost:         0 (0.00%)
+
+  Response codes:       NOERROR 25374 (96.77%), SERVFAIL 60 (0.23%), NXDOMAIN 787 (3.00%)
+  Average packet size:  request 30, response 68
+  Run time (s):         60.236982
+  Queries per second:   435.297373
+
+  Average Latency (s):  0.229127 (min 0.019733, max 1.058723)
+  Latency StdDev (s):   0.116618
+
